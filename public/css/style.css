@@ -1,0 +1,82 @@
+/* body {
+  background-color: rgb(247, 247, 247);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #9251ce;
+  width: 100%;
+} */
+
+.bodyContent{
+  /* background-color: rgb(247, 247, 247); */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #9251ce;
+  width: 100%;
+}
+
+#header{
+/* color: #9251ce;
+background: white; */
+height: 130px;
+}
+
+#unloadAd{
+  height: 100px;
+  width: 100%;
+}
+
+#unloadLogo{
+  width: 200px;
+  font-size: 20px;
+}
+
+#productNavBar{
+  color: #9251ce;
+}
+
+#carouselProducts{
+width: 100%;
+}
+
+.carousel-caption.d-none.d-md-block{
+  color: #9251ce;
+  text-align: center;
+}
+
+
+.button {
+  background-color: #9251ce; 
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #60308d;
+  color: rgb(233, 231, 124);
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.185),0 15px 46px 0 rgba(0, 0, 0, 0.116);
+}
+
+#searchBar{
+  border: 1px solid #9251ce;
+}
+
+.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto{
+  border: .5px solid #9251ce;
+}
+
+#footer{
+  border: 1px solid #9251ce;
+  color: #9251ce;
+}
+
+
+
+
+
+

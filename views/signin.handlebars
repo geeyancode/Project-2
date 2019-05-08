@@ -1,0 +1,69 @@
+<div class="form-row">
+  <div class="mx-auto text-center">
+    <h3>Welcome</h3>
+    <small>Please Sign on Unload.com</small>
+  </div>
+</div>
+
+
+<form action="/user/email" method="POST" class="needs-validation" validate>
+  <div class="container">
+    <div class="row">
+      {{!-- <div class="w-50 mx-auto"> --}}
+      <div class="col col-md-6 col-sm-12 mx-auto">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col col-md-6 col-sm-12 mx-auto">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" name="password" id="Password" placeholder="Password" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    <div class="row">
+      <div class="col col-md-6 col-sm-12 mx-auto">
+        <button id="signin" type="submit" class="btn btn-primary btn-block  mx-auto">Submit</button>
+      </div>
+    </div>
+    <div>
+      <label id="message">{{message}}</label>
+    </div>
+  </div>
+
+</form>
+
+<script>
+
+
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    'use strict';
+    window.addEventListener('load', function () {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function (form) {
+        form.addEventListener('submit', function (event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+</script>
